@@ -333,4 +333,20 @@ PRODUCT_COPY_FILES += \
     
 # Workaround
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/lib/liboverlay.so:system/lib/liboverlay.so
+    vendor/xiaomi/armani/proprietary/lib/hw/copybit.msm8226.so:system/lib/hw/copybit.msm8226.so \
+    vendor/xiaomi/armani/proprietary/lib/hw/gralloc.msm8226.so:system/lib/hw/gralloc.msm8226.so \
+    vendor/xiaomi/armani/proprietary/lib/hw/hwcomposer.msm8226.so:system/lib/hw/hwcomposer.msm8226.so \
+    vendor/xiaomi/armani/proprietary/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
+    vendor/xiaomi/armani/proprietary/lib/libdashplayer.so:system/lib/libdashplayer.so \
+    vendor/xiaomi/armani/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
+    vendor/xiaomi/armani/proprietary/lib/libexternal.so:system/lib/libexternal.so \
+    vendor/xiaomi/armani/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
+    vendor/xiaomi/armani/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
+    vendor/xiaomi/armani/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
+    vendor/xiaomi/armani/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
+    vendor/xiaomi/armani/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
+    vendor/xiaomi/armani/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
+    vendor/xiaomi/armani/proprietary/lib/libqdutils.so:system/lib/libqdutils.so \
+    vendor/xiaomi/armani/proprietary/lib/libqservice.so:system/lib/libqservice.so \
+    vendor/xiaomi/armani/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+    vendor/xiaomi/armani/proprietary/lib/libvirtual.so:system/lib/libvirtual.so
