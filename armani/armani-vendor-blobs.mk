@@ -217,33 +217,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/xiaomi/armani/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so
 
-# Modules
-PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko	\
-    vendor/xiaomi/armani/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko	\
-    vendor/xiaomi/armani/proprietary/lib/modules/coresight-event.ko:system/lib/modules/coresight-event.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/dma_test.ko:system/lib/modules/dma_test.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/evbug.ko:system/lib/modules/evbug.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/gpio_axis.ko:system/lib/modules/gpio_axis.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/gpio_event.ko:system/lib/modules/gpio_event.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/gpio_input.ko:system/lib/modules/gpio_input.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/gpio_matrix.ko:system/lib/modules/gpio_matrix.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/gpio_output.ko:system/lib/modules/gpio_output.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/gspca_main.ko:system/lib/modules/gspca_main.ko	\
-    vendor/xiaomi/armani/proprietary/lib/modules/mcdrvmodule.ko:system/lib/modules/mcdrvmodule.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/mckernelapi.ko:system/lib/modules/mckernelapi.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/mmc_block_test.ko:system/lib/modules/mmc_block_test.ko	\
-    vendor/xiaomi/armani/proprietary/lib/modules/mmc_test.ko:system/lib/modules/mmc_test.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/msm-buspm-dev.ko:system/lib/modules/msm-buspm-dev.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/oprofile.ko:system/lib/modules/oprofile.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/qcedev.ko:system/lib/modules/qcedev.ko	\
-    vendor/xiaomi/armani/proprietary/lib/modules/qcrypto.ko:system/lib/modules/qcrypto.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/radio-iris-transport.ko:system/lib/modules/radio-iris-transport.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/reset_modem.ko:system/lib/modules/reset_modem.ko \
-    vendor/xiaomi/armani/proprietary/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko	\
-    vendor/xiaomi/armani/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko	\
-    vendor/xiaomi/armani/proprietary/lib/modules/test-iosched.ko:system/lib/modules/test-iosched.ko
-
 # Perf
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/bin/mpdecision:system/bin/mpdecision \
@@ -330,23 +303,3 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/etc/firmware/wcnss.b09:system/etc/firmware/wcnss.b09 \
     vendor/xiaomi/armani/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/xiaomi/armani/proprietary/lib/libqminvapi.so:system/lib/libqminvapi.so
-    
-# Workaround
-PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/lib/hw/copybit.msm8226.so:system/lib/hw/copybit.msm8226.so \
-    vendor/xiaomi/armani/proprietary/lib/hw/gralloc.msm8226.so:system/lib/hw/gralloc.msm8226.so \
-    vendor/xiaomi/armani/proprietary/lib/hw/hwcomposer.msm8226.so:system/lib/hw/hwcomposer.msm8226.so \
-    vendor/xiaomi/armani/proprietary/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
-    vendor/xiaomi/armani/proprietary/lib/libdashplayer.so:system/lib/libdashplayer.so \
-    vendor/xiaomi/armani/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
-    vendor/xiaomi/armani/proprietary/lib/libexternal.so:system/lib/libexternal.so \
-    vendor/xiaomi/armani/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
-    vendor/xiaomi/armani/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
-    vendor/xiaomi/armani/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
-    vendor/xiaomi/armani/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
-    vendor/xiaomi/armani/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
-    vendor/xiaomi/armani/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
-    vendor/xiaomi/armani/proprietary/lib/libqdutils.so:system/lib/libqdutils.so \
-    vendor/xiaomi/armani/proprietary/lib/libqservice.so:system/lib/libqservice.so \
-    vendor/xiaomi/armani/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/xiaomi/armani/proprietary/lib/libvirtual.so:system/lib/libvirtual.so
